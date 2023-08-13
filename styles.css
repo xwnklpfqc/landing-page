@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 150vh;
+}
+
+.header,
+.block-1,
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.block-2,
+.block-3 {
+    background-color: white;
+    color: #6f7782;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    margin-left: 150px;
+}
+
+.header-list {
+    margin-right: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.button-1 {
+    padding: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border: 4px;
+    border-color: blue;
+}
+
+.card-container {
+    display: flex;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+}
+
+.quote {
+    font-size: 32px;
+    margin-left: 32px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 750px;
+}
+
+.quote-name {
+    align-self: flex-end;
+    margin-right: 16px;
+}
+
+.container-1 {
+    width: 350px;
+}
+
+.block-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 32px;
+}
+
+.block-2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-3 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-4 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
